@@ -23,19 +23,19 @@ This zip file contains two directories:
    - `data_cleaning/`: Code for preprocessing and cleaning the Dataset 1.
    - `proposed_model/`: Implementation of the NeuroFusion-Trans model for Dataset 1.
    - `deeplearning/`: Code for deep learning baselines applied to Dataset 1.
-   - `traditional_ml/`: Code for traditional machine learning methods applied to Dataset 1.
+ 
 
 2. **Dataset2**
    - `data_cleaning/`: Code for preprocessing and cleaning the Dataset 2.
    - `proposed_model/`: Implementation of the NeuroFusion-Trans model for Dataset 2.
    - `deeplearning/`: Code for deep learning baselines applied to Dataset 2.
-   - `traditional_ml/`: Code for traditional machine learning methods applied to Dataset 2.
+
 
 ## How to Use
 
 1. **Extract the zip file**:
    ```
-   unzip ICML-2025.zip
+   unzip mecharithm.zip
    ```
 
 2. Navigate to the respective dataset directory (`Dataset1` or `Dataset2`) to access the desired functionality:
