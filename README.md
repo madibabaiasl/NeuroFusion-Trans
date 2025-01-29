@@ -55,10 +55,7 @@ The project requires the following dependencies:
 - Scikit-learn
 - Matplotlib
 
-Install the dependencies using:
-```bash
-pip install -r requirements.txt
-```
+
 
 ## Results
 
