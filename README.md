@@ -15,7 +15,7 @@ Both datasets include raw data, preprocessing scripts, and classification result
 
 The repository is organized as follows:
 
-### `ICML-2025.zip`
+### `mecharith.zip`
 
 This zip file contains two directories:
 
