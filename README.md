@@ -1,6 +1,6 @@
 # NeuroFusion-Trans
 
-Welcome to the repository for the **NeuroFusion-Trans** paper, titled **"NeuroFusion-Trans: A Cross-Modality Attention and Online Adaptive Model for Real-Time User Intent Recognition for Assistive Robotics"**, submitted to ICML 2025. This repository contains all the resources and code used in our research, including data processing, proposed model implementation, and comparisons with traditional and deep learning methods.
+Welcome to the repository for the **NeuroFusion-Trans** paper, titled **"From Thought to Motion: NeuroFusion-Trans for Assistive Robotics"**, submitted to ICML 2025. This repository contains all the resources and code used in our research, including data processing, proposed model implementation, and comparisons with traditional and deep learning methods.
 
 ## Datasets
 
