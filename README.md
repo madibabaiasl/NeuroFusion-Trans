@@ -15,27 +15,26 @@ Both datasets include raw data, preprocessing scripts, and classification result
 
 The repository is organized as follows:
 
-### `mecharith.zip`
+### `Dataset-1 and 2.zip`
 
 This zip file contains two directories:
 
 1. **Dataset1**
    - `data_cleaning/`: Code for preprocessing and cleaning the Dataset 1.
    - `proposed_model/`: Implementation of the NeuroFusion-Trans model for Dataset 1.
-   - `deeplearning/`: Code for deep learning baselines applied to Dataset 1.
+
  
 
 2. **Dataset2**
    - `data_cleaning/`: Code for preprocessing and cleaning the Dataset 2.
    - `proposed_model/`: Implementation of the NeuroFusion-Trans model for Dataset 2.
-   - `deeplearning/`: Code for deep learning baselines applied to Dataset 2.
 
 
 ## How to Use
 
 1. **Extract the zip file**:
    ```
-   unzip mecharithm.zip
+   unzip Dataset-1 and 2.zip
    ```
 
 2. Navigate to the respective dataset directory (`Dataset1` or `Dataset2`) to access the desired functionality:
