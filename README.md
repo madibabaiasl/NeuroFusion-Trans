@@ -62,11 +62,6 @@ This repository uses **two publicly available datasets**:
 
 ---
 
-## Repository Structure
-├── Dataset-1 and 2.zip
-├── README.md # Project overview and citation
-├── Cleaning.ipynb # EEG-EMG signal preprocessing and artifact removal
-├── Final-Proposed Model.ipynb # NeuroFusion-Trans model training, evaluation, and visualization
 
 @article{Sultan2025NeuroFusion,
   author={Sultan, Tipu and Liu, Guangping and Sikorski, Pascal and Alshathri, Samah and El-Shafai, Walid and Babaiasl, Madi},
