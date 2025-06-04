@@ -1,75 +1,78 @@
 # NeuroFusion-Trans
 
-Welcome to the repository for the **NeuroFusion-Trans** paper, titled **"From Thought to Motion: NeuroFusion-Trans for Assistive Robotics"**, submitted to ICML 2025. This repository contains all the resources and code used in our research, including data processing, proposed model implementation, and comparisons with traditional and deep learning methods.
+**NeuroFusion-Trans: A Novel Transformer-Based EEG-EMG Fusion Model for Assistive Robotics**  
+*Accepted at IEEE Access 2025*  
 
-## Datasets
+---
 
-We used two datasets for our study:
+## 🔬 Overview
 
-1. **Dataset 1**: EMG-EEG dataset for upper-limb gesture classification.
-2. **Dataset 2**: 8-channel EMG-EEG upper-limb gesture dataset.
+NeuroFusion-Trans is a transformer-based framework for upper-limb gesture recognition using EEG and EMG signals. It enhances user intent decoding for assistive robotics by:
 
-Both datasets include raw data, preprocessing scripts, and classification results using the NeuroFusion-Trans model, as well as deep learning and traditional machine learning baselines.
+- Dynamically synchronizing neural (EEG) and muscular (EMG) signals  
+- Learning cross-modal dependencies through **cross-modality attention**  
+- Adapting to user-specific signal changes via **online learning**
 
-## Repository Structure
+---
 
-The repository is organized as follows:
+## 🚀 Key Contributions
 
-### `Dataset-1 and 2.zip`
+- ✅ **Temporal Synchronization**: Resampling + FFT-based cross-correlation  
+- ✅ **Cross-Modality Attention**: Learns joint EEG-EMG feature space  
+- ✅ **Online Adaptive Learning**: Updates model on-the-fly per user  
 
-This zip file contains two directories:
+📈 **Results**:  
+- Dataset 1: **97% accuracy**, Cohen's Kappa = **0.97**  
+- Dataset 2: **96% accuracy**, Cohen's Kappa = **0.95**
 
-1. **Dataset1**
-   - `data_cleaning/`: Code for preprocessing and cleaning the Dataset 1.
-   - `proposed_model/`: Implementation of the NeuroFusion-Trans model for Dataset 1.
+---
 
- 
+## 📂 Datasets
 
-2. **Dataset2**
-   - `data_cleaning/`: Code for preprocessing and cleaning the Dataset 2.
-   - `proposed_model/`: Implementation of the NeuroFusion-Trans model for Dataset 2.
+This repository uses **two publicly available datasets**:
 
+- **Dataset 1**: [EMG-EEG Dataset for Upper-Limb Gesture Classification (IEEE DataPort)](https://ieee-dataport.org/documents/emg-eeg-dataset-upper-limb-gesture-classification)  
+  - 33 subjects | 7 gestures | EEG: 8 ch (250 Hz), EMG: 8 ch (200 Hz)  
 
-## How to Use
+- **Dataset 2**: [8-Channel EMG-EEG Upper-Limb Gesture Data (Mendeley)](https://data.mendeley.com/datasets/m6t78vngbt/1)  
+  - 11 subjects | 7 gestures + MI | EEG: 8 ch, EMG: 8 ch
 
-1. **Extract the zip file**:
-   ```
-   unzip Dataset-1 and 2.zip
-   ```
+📁 Local copy: `Dataset-1 and 2.zip` (included in this repo)
 
-2. Navigate to the respective dataset directory (`Dataset1` or `Dataset2`) to access the desired functionality:
-   - Preprocessing scripts are in `data_cleaning/`.
-   - The NeuroFusion-Trans model code is in `proposed_model/`.
-   - Deep learning and traditional ML codes are in their respective directories.
+---
 
-3. Follow the instructions in each subdirectory's README (if available) to run the code.
+## 🧠 Model Architecture
 
-## Requirements
+- Dual transformer encoders for EEG and EMG  
+- Cross-modal fusion layer  
+- Final classification + real-time online learning
 
-The project requires the following dependencies:
-- Python 3.8+
-- TensorFlow or PyTorch
-- NumPy
-- Pandas
-- Scikit-learn
-- Matplotlib
+![Architecture](./assets/trans.png)
 
+---
 
+## 📊 Results Summary
 
-## Results
+| Model              | Accuracy (D1) | Accuracy (D2) |
+|-------------------|---------------|---------------|
+| NeuroFusion-Trans | **97%**       | **96%**       |
+| CNN-LSTM          | 25%           | 47%           |
+| GRUNet            | 60%           | 63%           |
+| ShallowConvNet    | 61%           | 62%           |
 
-The results of our experiments, including the performance of the NeuroFusion-Trans model compared to baseline methods, are discussed in the paper. Refer to the `results/` directory in each dataset folder for detailed metrics and visualizations.
+---
 
-## Citation
+## 🔧 Repository Structure
+├── Dataset-1 and 2.zip
+├── README.md # Project overview and citation
+├── Cleaning.ipynb # EEG-EMG signal preprocessing and artifact removal
+├── Final-Proposed Model.ipynb # NeuroFusion-Trans model training, evaluation, and visualization
 
-If you use our work, please cite:
-
-```bibtex
-@article{your_paper,
-  title={NeuroFusion-Trans: A Cross-Modality Attention and Online Adaptive Model for Real-Time User Intent Recognition for Assistive Robotics},
-  author={Your Name and Collaborators},
-  journal={ICML 2025},
-  year={2025}
+@article{Sultan2025NeuroFusion,
+  author={Sultan, Tipu and Liu, Guangping and Sikorski, Pascal and Alshathri, Samah and El-Shafai, Walid and Babaiasl, Madi},
+  journal={IEEE Access}, 
+  title={NeuroFusion-Trans: A Transformer-Based EEG-EMG Fusion Model for Assistive Robotics}, 
+  year={2025},
+  doi={10.1109/ACCESS.XXXXXXX}
 }
-```
 
