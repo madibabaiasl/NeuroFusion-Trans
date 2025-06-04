@@ -47,7 +47,13 @@ This repository uses **two publicly available datasets**:
 - Cross-modal fusion layer  
 - Final classification + real-time online learning
 
-![Architecture](.trans.png)
+
+
+<p align="center">
+  <img src="trans" width="500"/>
+  <br>
+  <em>Figure: Architecture of the NeuroFusion-Trans Transformer Model for Intent Recognition.</em>
+</p>
 
 ---
 
