@@ -50,7 +50,7 @@ This repository uses **two publicly available datasets**:
 
 
 <p align="center">
-  <img src="trans" width="500"/>
+  <img src="trans.png" width="500"/>
   <br>
   <em>Figure: Architecture of the NeuroFusion-Trans Transformer Model for Intent Recognition.</em>
 </p>
