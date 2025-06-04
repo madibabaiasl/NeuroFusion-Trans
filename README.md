@@ -47,7 +47,7 @@ This repository uses **two publicly available datasets**:
 - Cross-modal fusion layer  
 - Final classification + real-time online learning
 
-![Architecture](./assets/trans.png)
+![Architecture](.trans.png)
 
 ---
 
