@@ -62,6 +62,9 @@ This repository uses **two publicly available datasets**:
 
 ---
 
+### 1. Citation
+
+```bash
 
 @article{Sultan2025NeuroFusion,
   author={Sultan, Tipu and Liu, Guangping and Sikorski, Pascal and Alshathri, Samah and El-Shafai, Walid and Babaiasl, Madi},
