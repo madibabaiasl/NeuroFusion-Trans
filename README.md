@@ -5,7 +5,7 @@
 
 ---
 
-## 🔬 Overview
+##  Overview
 
 NeuroFusion-Trans is a transformer-based framework for upper-limb gesture recognition using EEG and EMG signals. It enhances user intent decoding for assistive robotics by:
 
@@ -15,11 +15,11 @@ NeuroFusion-Trans is a transformer-based framework for upper-limb gesture recogn
 
 ---
 
-## 🚀 Key Contributions
+## Key Contributions
 
-- ✅ **Temporal Synchronization**: Resampling + FFT-based cross-correlation  
-- ✅ **Cross-Modality Attention**: Learns joint EEG-EMG feature space  
-- ✅ **Online Adaptive Learning**: Updates model on-the-fly per user  
+- **Temporal Synchronization**: Resampling + FFT-based cross-correlation  
+- **Cross-Modality Attention**: Learns joint EEG-EMG feature space  
+- **Online Adaptive Learning**: Updates model on-the-fly per user  
 
 📈 **Results**:  
 - Dataset 1: **97% accuracy**, Cohen's Kappa = **0.97**  
@@ -27,7 +27,7 @@ NeuroFusion-Trans is a transformer-based framework for upper-limb gesture recogn
 
 ---
 
-## 📂 Datasets
+## Datasets
 
 This repository uses **two publicly available datasets**:
 
@@ -37,11 +37,11 @@ This repository uses **two publicly available datasets**:
 - **Dataset 2**: [8-Channel EMG-EEG Upper-Limb Gesture Data (Mendeley)](https://data.mendeley.com/datasets/m6t78vngbt/1)  
   - 11 subjects | 7 gestures + MI | EEG: 8 ch, EMG: 8 ch
 
-📁 Local copy: `Dataset-1 and 2.zip` (included in this repo)
+ Local copy: `Dataset-1 and 2.zip` (included in this repo)
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 - Dual transformer encoders for EEG and EMG  
 - Cross-modal fusion layer  
@@ -51,7 +51,7 @@ This repository uses **two publicly available datasets**:
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 | Model              | Accuracy (D1) | Accuracy (D2) |
 |-------------------|---------------|---------------|
@@ -62,7 +62,7 @@ This repository uses **two publicly available datasets**:
 
 ---
 
-## 🔧 Repository Structure
+## Repository Structure
 ├── Dataset-1 and 2.zip
 ├── README.md # Project overview and citation
 ├── Cleaning.ipynb # EEG-EMG signal preprocessing and artifact removal
