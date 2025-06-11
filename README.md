@@ -37,7 +37,7 @@ This repository uses **two publicly available datasets**:
 - **Dataset 2**: [8-Channel EMG-EEG Upper-Limb Gesture Data (Mendeley)](https://data.mendeley.com/datasets/m6t78vngbt/1)  
   - 11 subjects | 7 gestures + MI | EEG: 8 ch, EMG: 8 ch
 
- Local copy: `Dataset-1 and 2.zip` (included in this repo)
+
 
 ---
 
