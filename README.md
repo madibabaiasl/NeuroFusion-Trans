@@ -72,11 +72,15 @@ This repository uses **two publicly available datasets**:
 
 ```bash
 
-@article{Sultan2025NeuroFusion,
+@ARTICLE{11028041,
   author={Sultan, Tipu and Liu, Guangping and Sikorski, Pascal and Alshathri, Samah and El-Shafai, Walid and Babaiasl, Madi},
   journal={IEEE Access}, 
-  title={NeuroFusion-Trans: A Transformer-Based EEG-EMG Fusion Model for Assistive Robotics}, 
+  title={NeuroFusion-Trans: A Novel Transformer-Based EEG-EMG Fusion Model for Assistive Robotics}, 
   year={2025},
-  doi={10.1109/ACCESS.XXXXXXX}
-}
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Brain modeling;Electromyography;Electroencephalography;Adaptation models;Real-time systems;Synchronization;Accuracy;Transformers;Robots;Gesture recognition;Transformer;Cross-modality attention;Online learning;Gesture recognition;Assistive robotics;Temporal synchronization},
+  doi={10.1109/ACCESS.2025.3577996}}
+
 
