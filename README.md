@@ -62,9 +62,7 @@ This repository uses **two publicly available datasets**:
 | Model              | Accuracy (D1) | Accuracy (D2) |
 |-------------------|---------------|---------------|
 | NeuroFusion-Trans | **97%**       | **96%**       |
-| CNN-LSTM          | 25%           | 47%           |
-| GRUNet            | 60%           | 63%           |
-| ShallowConvNet    | 61%           | 62%           |
+
 
 ---
 
