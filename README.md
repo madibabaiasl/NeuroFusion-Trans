@@ -68,8 +68,7 @@ This repository uses **two publicly available datasets**:
 
 ### 1. Citation
 
-```bash
-
+```bibtex
 @ARTICLE{11028041,
   author={Sultan, Tipu and Liu, Guangping and Sikorski, Pascal and Alshathri, Samah and El-Shafai, Walid and Babaiasl, Madi},
   journal={IEEE Access}, 
