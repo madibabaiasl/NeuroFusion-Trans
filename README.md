@@ -66,7 +66,7 @@ This repository uses **two publicly available datasets**:
 
 ---
 
-### 1. Citation
+### Citation
 
 ```bibtex
 @article{sultan2025neurofusion,
