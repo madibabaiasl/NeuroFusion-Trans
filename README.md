@@ -21,9 +21,6 @@ NeuroFusion-Trans is a transformer-based framework for upper-limb gesture recogn
 - **Cross-Modality Attention**: Learns joint EEG-EMG feature space  
 - **Online Adaptive Learning**: Updates model on-the-fly per user  
 
-**Results**:  
-- Dataset 1: **97% accuracy**, Cohen's Kappa = **0.97**  
-- Dataset 2: **96% accuracy**, Cohen's Kappa = **0.95**
 
 ---
 
