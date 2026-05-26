@@ -17,13 +17,9 @@ Because the preprocessing pipeline was corrected, we also updated the training h
 
 | Hyperparameter | Value |
 |---|---:|
-| EEG channels | 8 |
-| EMG channels | 8 |
 | Sampling rate after resampling | 200 Hz |
 | Window length | 1000 ms |
 | Samples per window | 200 |
-| Window overlap | 80% |
-| Number of classes | 7 |
 | Transformer hidden dimension / `d_model` | 128 |
 | Transformer layers | 2 |
 | Attention heads | 4 |
@@ -34,23 +30,7 @@ Because the preprocessing pipeline was corrected, we also updated the training h
 | Weight decay | 0.0001 |
 | Maximum epochs | 150 |
 | Early-stopping patience | 25 |
-| Gradient clipping | 1.0 |
-| Initial EEG attention weight | 0.7 |
-| Initial EMG attention weight | 0.3 |
-| Cross-correlation synchronization | Enabled |
-| Maximum synchronization lag | ±50 samples |
-| Gaussian noise augmentation | Enabled |
-| Amplitude scaling augmentation | Enabled |
-| Time-shift augmentation | Enabled |
-| Frequency perturbation augmentation | Enabled |
-| MixUp / synthetic linear combination | Enabled |
-| MixUp alpha | 0.20 |
-| Online adaptation samples | 400 |
-| Replay samples | 400 |
-| Online adaptation cycles | 5 |
-| Online batch size | 16 |
-| Online learning rate | 0.00001 |
-| Online regularization coefficient | 0.01 |
+
 
 ### Note on Reproducibility
 
